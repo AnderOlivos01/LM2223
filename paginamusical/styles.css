@@ -1,0 +1,11 @@
+@font-face {
+    font-family: oswald;
+    src: url("oswald.ttf") format("truetype");
+}
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: oswald;
+}
