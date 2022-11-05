@@ -15,21 +15,23 @@ div{
     position: absolute;
     display: flex;
     top: 100px;
-    margin-bottom: 100px;
     z-index: -1;}
 .col1{
     width: 33%;
     display: grid;
-    margin-left: 10px;}
+    margin-left: 10px;
+    margin-bottom: 10px;}
 .col2{
     width: 33%;
     display: grid;
     margin-left: 10px;
-    margin-right: 10px;}
+    margin-right: 10px;
+    margin-bottom: 10px;}
 .col3{
     width: 33%;
     display: grid;
-    margin-right: 10px;}
+    margin-right: 10px;
+    margin-bottom: 10px;}
 .parrafo1{
     height: auto;
     background-color: rgb(101, 117, 147);
