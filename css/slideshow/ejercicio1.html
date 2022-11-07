@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SwappOFF</title>
     <link rel="stylesheet" href="ejercicio1.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <img src="http://www.scannerfm.com/wp-content/uploads/2014/05/arcticmonkey-brits2014.jpg" alt="">
+    <script src="ejercicio1.js"></script>
+<div class="caja">    
+    <img class="slide" src="http://www.scannerfm.com/wp-content/uploads/2014/05/arcticmonkey-brits2014.jpg" alt="imagen1">
+    <img class="slide" src="https://m.media-amazon.com/images/I/9108EhcTlTL._SL1500_.jpg" alt="imagen2">
+    <img class="slide" src="https://media.ambito.com/p/a25e8e80684af02e90466fd0ae70b606/adjuntos/239/imagenes/040/098/0040098680/arctic-monkeysjpg.jpg" alt="imagen3">
+<button class="buttomleft" onclick="incrementaIndice(-1)">&#10094</button>
+<button class="buttomright" onclick="incrementaIndice(+1)">&#10095</button>
+</div>
 </body>
 </html>
