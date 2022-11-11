@@ -1,7 +1,7 @@
 .buttonright{
     position: absolute;
     top: 250px;
-    left: 580px;
+    left: 610px;
 }
 .buttonleft{
     position: absolute;
@@ -11,7 +11,9 @@
     position: absolute;
     z-index: -3;
     width: 600px;
-    height: 500px;}
+    height: 500px;
+top: 20px;
+left: 20px;}
 
 button{
     z-index: 1;
