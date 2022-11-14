@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <link rel="stylesheet" href="/css/slideshow/reset.css">
+<style>
+    body{background-color: black;}
+.div1{
+    box-sizing: border-box;
+width: 100px;
+height: 100pzx;
+background-color: rgb(243, 24, 24);
+text-align: center;
+vertical-align: middle;
+line-height: 800px;
+margin: 0px;
+color: white;
+}
+/*.div2{box-sizing: border-box;
+width: 300px;
+height: 100px;
+padding: 50px;
+border: 1px solid red;
+text-align: center;
+vertical-align: middle;
+line-height: 0;
+overflow: scroll;}*/
+.fondo{width: 100%;
+    background-image:url(/cajas/imagenes/fondobonito.jpg);
+background-size: cover;
+position: absolute;
+z-index: -1;}
+.textoh1 {
+    font-size: 30px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
+
+</head>
+<body>
+    <div class="fondo"></div>
+    <div class="div1 textoh1"> Caja centrada</div>
+    <div class="fondotexto"></div>
+<!--    <br>
+    <div class="div2">2</div>-->
+</body>
+</html>
