@@ -1,0 +1,23 @@
+.menu{overflow: auto;
+text-align: left;}
+#derecha {
+    float: top;
+    width: 100%;
+  }
+#main {margin-right: 4px;}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+@media screen and (min-width: 480px) {
+    #derecha {width: auto; float: right;}
+    #main {margin-right: 216px;}}
