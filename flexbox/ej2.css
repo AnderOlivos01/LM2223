@@ -1,7 +1,8 @@
 div{
     color: white;
     font-size: 30px;
-    padding: 8px;}
+    padding: 8px;
+    text-align: center;}
 .padre{
     box-sizing: content-box;
     width: 98%;

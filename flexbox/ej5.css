@@ -1,6 +1,6 @@
-div{text-align: center;
+div{
+    text-align: center;
     color: white;
-    font-size: 8px;
     padding: 8px;}
 .padre{
     border: 3px solid red;
@@ -10,7 +10,8 @@ div{text-align: center;
     flex-direction: column;
     justify-content: space-between;}
 .padre > div{
-    width:98%;
+    font-size: xx-small;
+    width: auto;
     height: auto;}
 #div1{
     background-color: aquamarine;}
@@ -29,6 +30,6 @@ div{text-align: center;
 #div8{
     background-color: tomato;}
 #div9{
-    background-color: black}
+    background-color: black;}
 #div10{
     background-color: olivedrab;}
