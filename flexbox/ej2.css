@@ -1,11 +1,12 @@
+html, body{
+height: 100vh;}
 div{
     color: white;
     font-size: 30px;
-    padding: 8px;
     text-align: center;}
 .padre{
     box-sizing: content-box;
-    width: 98%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column-reverse;}

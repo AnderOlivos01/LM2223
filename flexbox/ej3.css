@@ -1,7 +1,6 @@
 div{text-align: center;
     color: white;
-    font-size: 30px;
-    padding: 8px;}
+    font-size: 30px;}
 .padre{
     border: 3px solid red;
     width: 90%;
@@ -11,7 +10,8 @@ div{text-align: center;
     }
 .padre > div{
     width: 30%;
-    height: auto;}
+    height: auto;
+    }
 #div1{
     background-color: aquamarine;}
 #div2{
