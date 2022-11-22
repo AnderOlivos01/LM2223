@@ -38,17 +38,29 @@ body{
     align-items:center;
     }
 /*++++++++++++++++++++++++++++++++++++++++++++++++*/
-.row{
+.gallery{
     width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;}
     
-.fotos{
-    width: 33.33%;
-    height: 400px;
+.row{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+height: auto;
 }
+.foto{
+    display: flex;
+    justify-content: center;
+    width: 33,33%;
+}
+.foto>img{
 
+    width: 90%;
+}
 /*
 @media (max-width: 800px) {
     .column {
