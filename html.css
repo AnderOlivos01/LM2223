@@ -1,0 +1,14 @@
+body{
+    margin: 0 auto;
+}
+.section{
+    border: 10px solid rgb(250, 35, 35);
+    padding: 10px;
+    margin-bottom: 50px
+}
+.section>h1{
+    text-align: center;
+}
+table, td{
+    border: 1px solid black;
+}

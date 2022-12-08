@@ -4,19 +4,35 @@ font-variant: small-caps;
 font-weight: bold;
 font-size: 24px;
 font-family: Open Sans Condensed;
+margin: 1em 10vw;
 }
+input,label,option,select,textarea
+{font-family: open sans condensed;
+font-variant: small-caps;
+font-size: 24px;
+font-weight: bold;}
 
-header{
-    margin-left: 10% ;
-    margin-right: 10%;
+fieldset{
+    border: 1px;
 }
+form{
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;}
 
 .formulario{
-    padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: left;
     display: grid;
-    border: 1px solid black;
-    background-color: white;
-    grid-template-columns: 20% 80%;}
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-row-gap: 1em;
+}
+#historia{
 
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+#poderes{width: 1em;
+height: 1em;}

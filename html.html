@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuleta</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+  <div class="section">
+<h1>CHULETA HTML</h1>
+    <!-- Tipos de Texto -->
+    <b>Esto es un texto en negrita</b> <br>
+    <i>Esto es un texto en itálica</i><br>
+    <u>Esto es un texto subrayado</u><br>
+    <br><br>
+
+
+    <!-- Links -->
+    <a href="https://www.instagram.com/">Instagram</a> <br>
+    <a href="mailto:andersonolivos01@iesamachado.org">Escribe un correo a Anderson</a>
+    <br><br>
+
+
+    <!-- Tipos de Divs -->
+    <header>Esto es un encabezado</header>
+    <footer>Esto es un pie de página</footer>
+    <nav>Esto es una barra de navegación</nav>
+    <div>Esto es un div normal</div>
+    <main>
+        <h1>Esto es un main</h1>
+        <aside>Esto es un aside</aside>
+        <article>Esto es un artículo</article>
+        <p>Esto es un párrafo</p>
+    </main>
+    <br><br>
+
+
+    <!-- Imágenes, audio y video -->
+    <audio controls><source src="LM2223/paginamusical/canciones/arabella.mp3">No se puede reproducir el audio</audio> <br>
+    <img style="width: 120px;" src="/LM2223/gallery/fotografias/laumid.JPG" alt="no reconzco esta imagen"> <br>
+    <!-- <video src=""></video> -->
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+    <br><br>
+
+
+<!-- Formulario -->
+<form action="#" method="post" enctype='multipart/form-data'>
+    <fieldset>
+      <legend>FORMULARIO</legend>
+      <div>
+        <!-- Texto Normal -->
+        <label for="name">Nombre</label>
+        <input id="name" type="text" name="class" placeholder="Escribe tu nombre...">
+        <br>
+        <!-- Tick -->
+        <label for="tick">Tick</label>
+        <input id="tick" type="checkbox" name="locks">
+        <input id="tick" type="checkbox" name="locks">
+        <br>
+        <!-- Color -->
+        <label for="colour">Color</label>
+        <input type="color" name="colour">
+        <br>
+        <!-- Teléfono -->
+        <label for="phone">Telefono</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="600-000-000"
+          required>
+        <br>
+        <!-- Email -->
+        <label for="date">Email</label>
+        <input type="email" name="email">
+        <br>
+        <!-- Fecha -->
+        <label for="date">Nacimiento</label>
+        <input type="date" name="date">
+        <br>
+
+        <!-- Radio -->
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="lenguaje_fav" value="HTML">
+        
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="lenguaje_fav" value="CSS">
+        
+        <label for="javascript">JavaScript</label>
+        <input type="radio" id="javascript" name="lenguaje_fav" value="JavaScript">
+        <br>
+        <!-- Varias opciones -->
+        <label for="alignment">Eleccion</label>
+        <select name="alignment" id="alignment">
+          <option value="eleccion1">Eleccion1</option>
+          <option value="eleccion2">Eleccion2</option>
+        </select>
+        <br>
+        <!-- Cuadro de texto -->
+        <label class="areatexto" for="area">Area De Texto</label>
+        <br>
+        <textarea class="areatexto" name="area" id="story" cols="30" rows="10" placeholder="Texto de ejemplo..."></textarea>
+        <br>
+        <!-- Agregar imagen -->
+        <label for="file">Imagen</label>
+        <input id="file" type="file" name="my-file" enctype='multipart/form-data'>
+        <br>
+        <!-- Boton de subir formulario -->
+        <input type="submit" value="Subir">
+      </div>
+    </fieldset>
+  </form>
+<br><br>
+
+
+    <!--Tipos de Lista-->
+    <u>Esto es una lista ordenada</u>
+    <ol>
+        <li>Número 1</li>
+        <li>Número 2</li>
+        <li>Número 3</li>
+    </ol>
+    <u>Esto es una lista desordenada</u>
+    <ul>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+    </ul>
+    <br><br>
+
+
+    <!--Esto es una Tabla-->
+    <table style="text-align:center ;">
+        <th>Esto es un formulario</th>
+        <tr><td>Fila 1 Col 1</td><td>Fila 1 Col 2</td><td rowspan="3">Esto ocupa 3 filas</td></tr>
+        <tr><td>Fila 2 Col 1</td><td>Fila 2 Col 2</td></tr>
+        <tr><td colspan="2">Esto ocupa 2 columnas</td></tr>
+    </table>
+    <br><br>
+    </div>
+
+</body>
+</html>
