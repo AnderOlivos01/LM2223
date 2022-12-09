@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color:#970043;
+    font-family: Open Sans, Helvetica, sans-serif;
+    height: 100vh;
+}
+header{
+    background-color: #ffd100;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+header>h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: ;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+main>div{
+    padding: 10px;
+}
+.columnaleft{
+    flex: 1;
+}
+.columnaright{
+    flex: 1;
+}
+.columnamid{
+    background-color: #f2f2f2;
+    padding: 10px;
+    flex: 2;
+}
+.slide{
+    border-radius: 10px;
+    width: 30rem;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.divimagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columnamid:hover{
+    background-color: #970043;
+    color: white;
+}
+.columnaright,.columnaleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info{
+    color: #ffd100;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nodo{
+    width: 80%;
+    max-width: 100%;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 110%;
+}
+footer{
+    background-color: #ffd100;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+span>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    cursor: help;
+}
+
+@media screen and (max-width:768px){
+    main{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
