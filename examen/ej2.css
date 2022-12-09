@@ -2,7 +2,7 @@ div{
     margin: 0;
     padding: 0;
 }
-body{
+body,label,input{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(52,49,49)}
 .contenedor{
@@ -19,9 +19,6 @@ body{
     padding: 30px;
     color: white;
     background-color: rgb(11,76,26);
-}
-legend{
-    font-weight: bold;
 }
 fieldset{
     border: 1px;
