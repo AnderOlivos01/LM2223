@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 PDF2</title>
+</head>
+<body>
+    <h2>Cálculo de habitaciones necesarias</h2>
+    <p>Disponemos de las habitaciones siguientes:</p>
+    <ul>
+        <li>Dobles: un adulto o dos.</li>
+        <li>Dobles con supletoria: Dos adultos y un niño.</li>
+        <li>Triples: Tres adultos.</li>
+        <li>Familiares: Dos adultos y dos niños.</li>
+    </ul>
+    <p>Por favor, introduzca el número de personas adultas y niños.</p>
+    <p>Adultos</p>
+    <input id="adultos" type="textbox">
+    <p>Niños</p>
+    <input id="niños" type="textbox"><br><br>
+    <button onclick="calcular()">Calcular</button>
+    <p id="habitaciones"></p>
+    <script>
+        function calcular(){
+            var adultos, niños;
+            adultos=document.getElementById('adultos').value;
+            niños=document.getElementById('niños').value;
+            alert('Hay '+adultos+ ' adultos y ' +niños+ ' niños');
+
+        }
+    </script>
+</body>
+</html>
