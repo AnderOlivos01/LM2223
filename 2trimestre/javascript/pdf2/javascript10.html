@@ -9,18 +9,18 @@
 </head>
 <body>
     <p>Prueba de variables global</p>
-    <button onclick="suma()">Incrementar</button>
-    <button onclick="resta()">Decrementar</button>
+    <button onclick="suma()">Incrementar 2</button>
+    <button onclick="resta()">Decrementar 2</button>
     <p id="demo"></p>
     <script>
-            var numero=1;
+            var numero=0;
             document.getElementById("demo").innerHTML = numero;
         function resta() {
-            numero -=1;
+            numero -=2;
             document.getElementById("demo").innerHTML = numero;
         }
         function suma() {
-            numero +=1;
+            numero +=2;
             document.getElementById("demo").innerHTML = numero;
         }
 </script>
